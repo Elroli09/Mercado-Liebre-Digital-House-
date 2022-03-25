@@ -1,0 +1,389 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ebebeb;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 12px;
+}
+
+div.top-header {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5%;
+}
+
+header div.top-header p {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+header {
+  background-color: #eac926;
+}
+
+header div.logo,
+header .form {
+  width: 50%;
+}
+
+header div.logo {
+  padding: 10px;
+}
+header .form {
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  font-size: 11px;
+}
+header nav {
+  display: none;
+}
+
+header ul li {
+  list-style-type: none;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+header .form input {
+  background-color: #fff;
+  border: 1px solid #000;
+  outline: none;
+  color: #666;
+  padding: 2px;
+  border-radius: 5px;
+  width: 90%;
+}
+
+header .submit {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+  color: #666;
+  width: 10%;
+
+  text-align: center;
+  margin: auto;
+}
+header .form .submit i {
+  font-size: 10px;
+}
+
+div.burger-menu {
+  text-align: center;
+}
+
+div.burger-menu i {
+  background-color: #0044aa;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  height: 40px;
+  margin: 10px 0px 20px 0px;
+  padding: 10px;
+  width: 40px;
+}
+
+div.last-visit,
+div.offers {
+  display: flex;
+  flex-wrap: wrap;
+}
+main section article {
+  transition: all, 0, 5ms;
+}
+main section article:hover {
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.price {
+  font-size: 18px;
+  width: 30%;
+}
+
+.discount {
+  width: 70%;
+}
+
+.discount,
+.description {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+h3 {
+  color: #666;
+}
+
+h4.description {
+  margin-top: 20px;
+  color: white;
+  transition-duration: 1s;
+}
+
+article:hover div h4.description {
+  color: #666;
+  margin-top: 10px;
+}
+
+section.banner img {
+  width: 100%;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+main section article {
+  background-color: #fff;
+  margin: 10px 0px;
+}
+
+main section article img {
+  width: 100%;
+}
+
+main section article i,
+.discount {
+  color: #39b54a;
+}
+
+main section article i {
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+}
+main section div article:hover div i {
+  transform: rotate(-90deg);
+  transition: 2s;
+}
+
+main section h3 {
+  margin: 20px 0px;
+}
+
+article div.main-article {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  border-top: 1px solid #ebebeb;
+  position: relative;
+  padding: 15px;
+}
+/* FOOTER */
+
+footer {
+  text-align: center;
+  margin: 10px auto;
+  background-color: #fff;
+}
+footer div.credit-card,
+div.envio-gratis,
+div.seguridad {
+  margin: 50px auto;
+  width: 60%;
+}
+footer div i {
+  color: #0044aa;
+  font-size: 30px;
+  margin: 10px;
+  transition-duration: 1s;
+}
+footer div i:hover {
+  color: #00b4eb;
+}
+/* REGISTER.HTML */
+
+.formulario-registro {
+  width: 70%;
+  margin: 5px auto;
+  font-size: 12px;
+  text-align: center;
+  border: 1px solid #6666663b;
+  border-radius: 5px;
+  background-color: #6666663b;
+}
+form h2 {
+  margin: 8px 0;
+}
+
+.formulario-registro div {
+  padding: 5px;
+}
+.formulario-registro div input {
+  background-color: #fff;
+  border: 1px solid #fff;
+  outline: none;
+  color: #666;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 10px;
+  width: 80%;
+}
+div.perfil-de-usuario {
+  display: flex;
+  justify-content: center;
+}
+form input.circle-input {
+  width: 25%;
+}
+div.categorias-de-interes {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+div.categorias-de-interes input {
+  width: 45%;
+}
+div.categorias-de-interes label {
+  width: 45%;
+}
+div.foto-de-usuario {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
+div.contraseña {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
+div.confirmar-contraseña {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
+div.enviar-borrar {
+  display: flex;
+  justify-content: space-around;
+}
+div.enviar-borrar button {
+  padding: 0 10px;
+  color: #fff;
+  background-color: #0044aa;
+  border-style: none;
+  border-radius: 5px;
+}
+div.enviar-borrar button a{
+  color: #fff;
+  text-decoration: none;
+}
+
+/* LOGIN.HTML  */
+
+.formulario-login {
+  width: 100%;
+  margin: auto;
+  font-size: 12px;
+  text-align: center;
+  background-color: #6666663b;
+}
+.formulario-login input {
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #666;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 5px;
+  font-size: 10px;
+  width: 80%;
+}
+.formulario-login button {
+  padding: 8px;
+
+  background-color: #0044aa;
+  border-style: none;
+  border-radius: 5px;
+  width: 80%;
+  margin: 15px;
+}
+.formulario-login button:hover {
+  background-color: #0022aa;
+}
+.formulario-login button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (min-width: 361px) {
+  header div.top-header {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  header div.top-header p {
+    margin: auto;
+  }
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2.2vw;
+  }
+  header nav ul {
+    display: flex;
+  }
+  header nav ul li {
+    padding: 5px;
+  }
+  div.burger-menu {
+    display: none;
+  }
+
+  main section div.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  main section div.products article {
+    width: 45%;
+  }
+
+  .price {
+    width: 60%;
+  }
+  .discount {
+    width: 40%;
+  }
+}
+
+@media (min-width: 769px) {
+  main section div.products article {
+    width: 22%;
+  }
+  footer div.horizontal {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
